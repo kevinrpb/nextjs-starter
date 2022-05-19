@@ -1,0 +1,25 @@
+header {
+  @include flex-row;
+
+  justify-content: space-between;
+  padding: 0.5em;
+
+  background-color: $space-cadet;
+
+  * {
+    color: $alice-blue;
+  }
+
+  a {
+    @include flex-row;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .icon {
+    margin-right: 0.25em;
+  }
+}
