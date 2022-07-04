@@ -1,6 +1,7 @@
 import React from 'react'
 
-import ExportedImage from 'next-image-export-optimizer'
+import Image from 'next/future/image'
+// import ExportedImage from 'next-image-export-optimizer'
 
 import Page from '@layouts/page'
 
@@ -12,7 +13,7 @@ const Home = () => (
       <article>
         <h1>NextJS Starter</h1>
 
-        <ExportedImage src={cats} alt='A picture of two cats' layout='raw' />
+        <Image src={cats} alt='A picture of two cats' width='768' height='1024' />
       </article>
     </main>
   </Page>
