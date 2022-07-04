@@ -9,7 +9,7 @@ import cats from '@img/cats.jpeg'
 
 const Home = () => (
   <Page>
-    <main>
+    <main data-page='index'>
       <article>
         <h1>NextJS Starter</h1>
 

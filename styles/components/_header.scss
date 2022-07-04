@@ -22,4 +22,13 @@ header {
   .icon {
     margin-right: 0.25em;
   }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+
+    > a:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
 }

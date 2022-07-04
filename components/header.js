@@ -10,6 +10,10 @@ const Header = () => (
     </SaneLink>
 
     <nav>
+      <SaneLink href='/docs'>
+        <Icon name='heart' /> Docs
+      </SaneLink>
+
       <SaneLink href='https://github.com/kevinrpb/nextjs-starter'>
         <Icon name='github' /> See on GitHub
       </SaneLink>
