@@ -1,7 +1,7 @@
 const isVercel = process.env.VERCEL || false
 const isGithub = process.env.GITHUB_ACTIONS || false
 
-let assetPrefix = ''
+let assetPrefix = null
 if (isVercel) assetPrefix = `https://${process.env.VERCEL_URL}/`
 else if (isGithub) assetPrefix = `https://${process.env.GITHUB_URL}/`
 
@@ -17,7 +17,6 @@ module.exports = {
   //     quality: 90,
   //   },
   // },
-  experimental: { images: { allowFutureImage: true } },
   env: {
     storePicturesInWEBP: true,
     generateAndUseBlurImages: true,
