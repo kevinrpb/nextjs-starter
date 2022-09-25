@@ -29,6 +29,6 @@
   "devDependencies": {
     "eslint": "8.23.1",
     "eslint-config-next": "12.2.0",
-    "eslint-plugin-react": "^7.29.4"
+    "eslint-plugin-react": "^7.31.8"
   }
 }
